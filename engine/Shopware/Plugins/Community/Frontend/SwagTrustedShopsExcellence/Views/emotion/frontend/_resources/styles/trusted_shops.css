@@ -1,0 +1,89 @@
+/* buyer protection on checkout */
+.ts_add_button {
+    height: 26px;
+    margin-top: 20px;
+}
+
+.table_row.trusted_shops input {
+    margin: 2px 0 0 10px;
+    padding-left: 17px;
+}
+
+.table_row.trusted_shops img {
+    position: absolute;
+    z-index: 1000;
+}
+
+.table_row.trusted_shops a {
+    color: #dd4800;
+}
+
+.table_row.trusted_shops .logo_large {
+    float: left;
+    padding-top: 20px;
+    padding-right: 40px;
+    height: 120px;
+}
+
+.table_row.trusted_shops .text {
+    padding: 20px 60px;
+}
+
+/* buyer protection on checkout finish page */
+.trustedShopsForm {
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+    width: 976px;
+}
+
+/* rate buttons styling on checkout finish page */
+.ts-panel {
+    border: 1px solid #c7c7c7;
+}
+
+.ts-user-votes {
+    padding: 15px 0;
+}
+
+.ts-info-text {
+    padding: 15px 20px;
+    color: #999999;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.ts-info-text a {
+    color: #dd4800;
+}
+
+.ts-vote-later {
+    border-right: 1px solid #d3d3d3;
+    width: 497px;
+    float: left;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ts-vote-now {
+    width: 498px;
+    float: left;
+    padding-top: 15px;
+}
+
+#trustedShopsDataForWidget,
+#trustedShopsCheckout {
+    display: none;
+}
+
+/* fades out the rate buttons on checkout finish page for printing */
+@media print {
+    .ts-panel, .trustedShopsForm, div[id*='tsbadge_'] {
+        display: none;
+    }
+}
+
+/* styling for trusted shops div in header, which will be used later */
+#hereComesMyCustomTrustbadge {
+    display: inline-block;
+}

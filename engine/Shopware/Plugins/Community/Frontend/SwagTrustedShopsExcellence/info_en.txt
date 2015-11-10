@@ -1,0 +1,19 @@
+<style type="text/css">
+.ts-desc { font-size: 12px }
+.ts-desc p { margin: 0 0 12px }
+.ts-desc strong { font-weight: bold }
+.ts-desc ul, .ts-desc ol { display: block; margin: 8px 0 8px 15px }
+.ts-desc li { list-style: circle; margin: 0 0 4px 0 }
+.ts-desc ol li { list-style: decimal }
+</style>
+<div class="ts-desc">
+    <strong>Important: When installing Trusted Shops observe the following procedure:</strong>
+    <ol>
+        <li>Sign-up to <a href="http://www.trustedshops.com/merchants/membership.html?shopsw=Shopware" target="_blank">Trusted Shops</a></a>
+        <li>This will give you a unique Trusted Shops ID and the credentials for your Trusted Store account (user and password)</li>
+        <li>Enter the Trusted Shops ID, Trusted Shops user and password in the plugin settings. These can be found under Marketing -> Trusted Shops</li>
+        <li>Save the settings.</li>
+        <li>Check the credentials by pressing the button "Test connection, login and Trusted Shops certificate"</li>
+        <li>If the test was successful, click on the button "Import Trusted Shops articles (Trusted Shops ID, webservice username and password required)"</li>
+    </ol>
+</div>

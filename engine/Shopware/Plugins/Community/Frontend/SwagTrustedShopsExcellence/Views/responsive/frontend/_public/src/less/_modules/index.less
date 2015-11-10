@@ -1,0 +1,40 @@
+body {
+	position: relative;
+}
+
+.user-votes--link {
+    display: none;
+}
+
+.ts--header-logo img {
+	.unitize-height(25);
+	.unitize(150, 16, left);
+	position: absolute;
+}
+
+.ts--canvas-open {
+	.transform(translateX(-280px));
+}
+//Hack to fix bad trusted-shops styling
+*[id^=tsbadgeResponsive_] {
+	.unitize(-225, 16, bottom);
+	position: absolute;
+	//We need this to overwrite an inline-style from trusted-shops, which totally breaks the layout
+	top: auto !important;
+}
+
+*[id^=tsbadge_] {
+	.transition(all 0.45s cubic-bezier(.3,0,.15,1));
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+    .user-votes--link {
+        display: inline-block;
+    }
+
+	.ts--header-logo img {
+		.unitize-height(35);
+		.unitize(210, 16, left);
+		.unitize(25, 16, bottom);
+	}
+}

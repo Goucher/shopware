@@ -1,0 +1,53 @@
+{
+    "label": {
+        "de": "Trusted Shops 2.0",
+        "en": "Trusted Shops 2.0"
+    },
+    "copyright": "(c) by Shopware AG",
+    "license": "proprietary",
+    "link": "http://store.shopware.com",
+    "author": "Shopware AG",
+
+    "currentVersion": "2.1.6",
+
+    "changelog": {
+        "de": {
+            "2.1.6": "PT-4241 - Bugfix: Kompatibilität Shopware 5.1;",
+            "2.1.5": "PT-3389 - Bugfix: Performance Verbesserungen;",
+            "2.1.4": "PT-3370 - Bugfix: Problem mit Aufschlägen behoben;",
+            "2.1.3": "PT-3285 - Bugfix: Falsche Übertragung der TrustedShops Product ID;",
+            "2.1.2": "PT-2504 - Bugfix: Rechtemanagement hinzugefügt; PT-2941 - Bugfix: Kompatibilität mit PayPal Plus; PT-3147 - Bugfix: Menge von TrustedShops Artikel im Warenkorb nicht mehr änderbar;",
+            "2.1.1": "PT-3079 - Bugfix: Trusted Shops Status werden nicht mehr doppelt angelegt;",
+            "2.1.0": "PT-2896 - Feature: Shopware 5 Kompatibilität;",
+            "2.0.6": "PT-2879 - Bugfix: Anzeige der Steuern; PT-2875, PT-2877 - Bugfix: Problem mit Bonus-System;",
+            "2.0.5": "NTR - Bugfix: Fehler beim Update",
+            "2.0.4": "PT-2782 - Bugfix: Fehler beim Update",
+            "2.0.3": "PT-2739 - Bugfix: Falsche Lieferzeitübergabe an Trusted Shops; PT-2742 - Bugfix: Fehler beim Import der Trusted Shops Artikel;",
+            "2.0.2": "Behebt Problem, dass die Trusted Shops JavaScript Datei zu früh geladen wurde",
+            "2.0.1": "Behebt Problem, wenn das Plugin über die Dummy-Plugin-Funktion neu installiert wird",
+            "2.0.0": "Refaktorierung des Plugin zu Trusted Shops 2.0"
+        },
+        "en": {
+            "2.1.6": "PT-4241 - Bugfix: Compatibility Shopware 5.1;",
+            "2.1.5": "PT-3389 - Bugfix: Performance improvements;",
+            "2.1.4": "PT-3370 - Bugfix: Removed problem with surcharges;",
+            "2.1.3": "PT-3285 - Bugfix: Wrong transmission of TrustedShops Product ID;",
+            "2.1.2": "PT-2504 - Bugfix: Added ACL permissions; PT-2941 - Bugfix: Compatibility with PayPal Plus; PT-3147 - Bugfix: Amount of TrustedShops items no longer changeable;",
+            "2.1.1": "PT-3079 - Bugfix: Trusted Shops status are no longer duplicated;",
+            "2.1.0": "PT-2896 - Feature: Shopware 5 Kompatibilität;",
+            "2.0.6": "PT-2879 - Bugfix: Displaying of taxes; PT-2875, PT-2877 - Bugfix: Problem with bonus system;",
+            "2.0.5": "NTR - Bugfix: error on update",
+            "2.0.4": "PT-2782 - Bugfix: error on update",
+            "2.0.3": "PT-2739 - Bugfix: wrong transmitting of delivery date to Trusted Shops; PT-2742 - Bugfix: error on importing the Trusted Shops articles;",
+            "2.0.2": "Fixed too early loading of the Trusted Shops JavaScript file",
+            "2.0.1": "Fixed problem if plugin is installed newly via dummy plugin function",
+            "2.0.0": "Refactoring of the plugin to Trusted Shops 2.0"
+        }
+    },
+
+    "compatibility": {
+        "minimumVersion": "4.2.0",
+        "maximumVersion": null,
+        "blacklist": []
+    }
+}

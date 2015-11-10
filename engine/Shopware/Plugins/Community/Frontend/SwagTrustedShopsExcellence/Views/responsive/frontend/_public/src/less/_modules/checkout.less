@@ -1,0 +1,162 @@
+.ts--img-small {
+    .unitize-height(26);
+    .unitize-width(26);
+    background: url("../../img/trusted_shops_small.png") no-repeat;
+}
+
+.ts--img-medium {
+    .unitize-height(55);
+    .unitize-width(55);
+    background: url("../../img/trusted_shops_medium.png") no-repeat;
+}
+
+.ts--img-large {
+    .unitize-height(84);
+    .unitize-width(84);
+    background: url("../../img/trusted_shops_large.png") no-repeat;
+}
+
+.ts--cart-header {
+    .unitize(10, 16, padding);
+    .unitize-margin(10, 0);
+    border: 1px solid @border-color;
+    position: relative;
+    
+    .cart-header--ts-form {
+        .unitize-height(160);
+        .unitize-margin(0, 20, 0, 10);
+
+        .ts-form--image {
+            .unitize(38, 16, top);
+            .unitize(33, 16, right);
+            position: absolute;
+        }
+    }
+
+    .cart-header--ts-text {
+        width: 70%;
+
+        .ts-text--img {
+            .unitize(-22, 16, left);
+            .unitize(-1, 16, top);
+            .unitize-height(35);
+            position: absolute;
+            max-height: none;
+        }
+    }
+
+    .ts-text--headline2 {
+        .unitize(20, 16, margin-bottom);
+        width: 55%;
+    }
+
+    .ts-text--add-button {
+        .unitize(10, 16, margin-left);
+        .unitize(10, 16, margin-bottom);
+        .unitize-width(205);
+        position: relative;
+        text-align: right;
+    }
+}
+
+.ts--clear {
+    .clearfix();
+}
+
+.ts--vote-panel {
+    .unitize(20, 16, margin-bottom);
+    border: 1px solid @border-color;
+    text-align: center;
+}
+
+.ts-vote-container {
+    .unitize-padding(0, 15);
+    .unitize-margin(20, 20);
+    width: auto;
+}
+
+.ts-vote-container--vote-later,
+.ts-vote-container--vote-now {
+    float: none;
+}
+
+.ts-vote-container--vote-later {
+    border-right: 0;
+    border-bottom: 1px solid @border-color;
+}
+
+.vote-panel--ts-vote-container {
+    .unitize(20, 16, margin-bottom);
+}
+
+.vote-panel--ts-vote-headline {
+    .unitize(30, 16, margin-bottom);
+}
+
+.vote-later--button {
+    .unitize(15, 16, margin-bottom);
+}
+
+.ts-vote--button {
+    .unitize-width(250);
+    text-align: center;
+}
+
+.ts--no-js-container {
+    .unitize(10, 16, padding);
+    .unitize(20, 16, margin-bottom);
+    border: 1px solid @border-color;
+}
+
+// need to use this id, it's an id from trusted shop itself
+#trustedShopsCheckout {
+    display: none;
+}
+
+.no-js-container--ts-logo {
+    .unitize(20, 16, margin-right);
+}
+.product--table .table--media .ts-table--media-outer { border: none; }
+
+.swagTrustedShops-quantity {
+    font-weight: bolder;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+    .ts--cart-header {
+        .ts-text--headline2 {
+            width: 100%;
+        }
+
+        .cart-header--ts-text {
+            width: 85%;
+        }
+
+        .ts-text--add-button {
+            margin-left: 0;
+        }
+
+        .cart-header--ts-form {
+            .ts-form--image {
+                position: relative;
+                right: 0;
+                top: 25%;
+            }
+        }
+    }
+
+    .ts-vote-container {
+        margin: 0;
+        width: 50%;
+    }
+
+    .ts-vote-container--vote-later,
+    .ts-vote-container--vote-now {
+        float: left;
+    }
+
+    .ts-vote-container--vote-later {
+        border-right: 1px solid @border-color;
+        border-bottom: 0;
+    }
+}
